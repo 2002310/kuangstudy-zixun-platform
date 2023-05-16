@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/kuangstudy-zixun-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/kuangstudy-zixun-mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-app-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.8.4\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PeIdhM9jFE6W87PyFDw4l3Nj6M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/naxida-demo/kuangstudy-zixun-platform/platform/kuangstudy-zixun-app-api/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21034482&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;058a505b758bc632b1e6de33e9e8556c&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\naxida-demo\kuangstudy-zixun-platform\platform\kuangstudy-zixun-app-api\src\main\resources" />
+      <recent name="D:\naxida-demo\kuangstudy-zixun-platform\platform\kuangstudy-zixun-admin-api\src\main\java\com\pug\zixun" />
+      <recent name="D:\naxida-demo\kuangstudy-zixun-platform" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\naxida-demo\kuangstudy-zixun-platform\service\kuangstudy-zixun-service\src\main\java\com\pug\zixun\service\impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminWebApplication (1)">
+    <configuration name="AdminWebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kuangstudy-zixun-admin-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pug.zixun.AdminWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kuangstudy-zixun-app-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pug.zixun.AdminWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kuangstudy-zixun-app-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pug.zixun.AppWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="" />
+      <created>1683811211791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683811211791</updated>
+      <workItem from="1683811213341" duration="3874000" />
+      <workItem from="1683815231991" duration="2367000" />
+      <workItem from="1683882461488" duration="7482000" />
+      <workItem from="1684159060785" duration="9005000" />
+      <workItem from="1684254726365" duration="2481000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="application.yml" />
+  </component>
+</project>

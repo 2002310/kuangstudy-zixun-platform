@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kuangstudy-zixun-admin-api" />
+        <module name="kuangstudy-zixun-mapper" />
+        <module name="kuangstudy-zixun-config" />
+        <module name="kuangstudy-zixun-domian" />
+        <module name="kuangstudy-zixun-user-service" />
+        <module name="kuangstudy-zixun-service" />
+        <module name="kuangstudy-zixun-common" />
+        <module name="kuangstudy-zixun-app-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kuangstudy-zixun-admin-api" options="-parameters" />
+      <module name="kuangstudy-zixun-app-api" options="-parameters" />
+      <module name="kuangstudy-zixun-common" options="-parameters" />
+      <module name="kuangstudy-zixun-config" options="-parameters" />
+      <module name="kuangstudy-zixun-domian" options="-parameters" />
+      <module name="kuangstudy-zixun-mapper" options="-parameters" />
+      <module name="kuangstudy-zixun-service" options="-parameters" />
+      <module name="kuangstudy-zixun-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
