@@ -1,5 +1,7 @@
 package com.pug.zixun.controller;
 
+import com.pug.zixun.common.AdminResultEnum;
+import com.pug.zixun.common.R;
 import com.pug.zixun.domain.User;
 import com.pug.zixun.service.UserService;
 //import io.swagger.annotations.ApiOperation;
@@ -16,8 +18,8 @@ public class UserController {
     private UserService service;
 //    @ApiOperation("一个普通的get请求")
     @GetMapping("/user/{id}")
-    public User getUser(@PathVariable Integer id){
+    public R getUser(@PathVariable Integer id){
         User byId = service.getById(id);
-        return byId;
+        return R.success(AdminResultEnum.ADMIN_SUCCESS,byId);
     }
 }
