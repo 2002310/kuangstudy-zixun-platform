@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/kuangstudy-zixun-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/kuangstudy-zixun-mapper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-app-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/Knife4jConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/VideoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +123,8 @@
       <workItem from="1683882461488" duration="7482000" />
       <workItem from="1684159060785" duration="9005000" />
       <workItem from="1684254726365" duration="2481000" />
+      <workItem from="1684314512416" duration="1547000" />
+      <workItem from="1684339749997" duration="372000" />
     </task>
     <servers />
   </component>

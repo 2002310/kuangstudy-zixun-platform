@@ -35,7 +35,7 @@ public class VideoController {
         // 移动访问指针到指定位置
         randomAccessFile.seek(range);
         // 每次请求只返回1MB的视频流
-        byte[] bytes = new byte[1024 * 1024];
+        byte[] bytes = new byte[1024 * 10240];
         int len = randomAccessFile.read(bytes);
         //设置此次相应返回的数据长度
         response.setContentLength(len);
