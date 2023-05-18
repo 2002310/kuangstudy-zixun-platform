@@ -1,15 +1,14 @@
-package com.pug.zixun.common;
+package com.pug.zixun.common.enums;
 
-public enum AdminResultEnum implements AdminResulInterface{
+public enum AdminSuccessResultEnum implements AdminResulInterface{
     ADMIN_SUCCESS(200,"请求成功"),
-    ADMIN_PAGE_NOTFOUND(404,"页面未找到"),
-    ADMIN_SERVER_ERROR(500,"服务器异常"),
+
     ADMIN_RESULT_RANGE(206,"页面分段返回中")
     ;
     private Integer code;
     private String msg;
 
-    AdminResultEnum(Integer code, String msg) {
+    AdminSuccessResultEnum(Integer code, String msg) {
         this.code = code;
         this.msg = msg;
     }

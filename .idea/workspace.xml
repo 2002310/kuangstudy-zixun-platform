@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html">
+    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="定义了统一返回R类，在commons中">
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/AdminResulInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminResulInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/AdminResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminSuccessResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/result/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/AdminResultEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/ResultEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapper/kuangstudy-zixun-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/kuangstudy-zixun-mapper/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/VideoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/VideoController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,7 +139,8 @@
       <workItem from="1684159060785" duration="9005000" />
       <workItem from="1684254726365" duration="2481000" />
       <workItem from="1684314512416" duration="1547000" />
-      <workItem from="1684339749997" duration="4819000" />
+      <workItem from="1684339749997" duration="5103000" />
+      <workItem from="1684387888123" duration="13141000" />
     </task>
     <task id="LOCAL-00001" summary="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html">
       <created>1684340203330</created>
@@ -143,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684340814697</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="定义了统一返回R类，在commons中">
+      <created>1684347844687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684347844687</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html" />
+    <MESSAGE value="定义了统一返回R类，在commons中" />
+    <option name="LAST_COMMIT_MESSAGE" value="定义了统一返回R类，在commons中" />
   </component>
 </project>

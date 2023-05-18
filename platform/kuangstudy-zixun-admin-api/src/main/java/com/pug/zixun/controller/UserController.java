@@ -1,7 +1,8 @@
 package com.pug.zixun.controller;
 
-import com.pug.zixun.common.AdminResultEnum;
-import com.pug.zixun.common.R;
+import com.pug.zixun.common.enums.AdminErrorResultEnum;
+import com.pug.zixun.common.enums.AdminSuccessResultEnum;
+import com.pug.zixun.common.result.R;
 import com.pug.zixun.domain.User;
 import com.pug.zixun.service.UserService;
 //import io.swagger.annotations.ApiOperation;
@@ -20,6 +21,9 @@ public class UserController {
     @GetMapping("/user/{id}")
     public R getUser(@PathVariable Integer id){
         User byId = service.getById(id);
-        return R.success(AdminResultEnum.ADMIN_SUCCESS,byId);
+        if (byId==null){
+            throw new RuntimeException("用户找不到");
+        }
+        return R.success(AdminSuccessResultEnum.ADMIN_SUCCESS,byId);
     }
 }

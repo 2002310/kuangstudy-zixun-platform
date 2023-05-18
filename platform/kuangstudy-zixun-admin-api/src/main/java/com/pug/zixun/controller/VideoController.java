@@ -1,5 +1,6 @@
 package com.pug.zixun.controller;
 
+import com.pug.zixun.common.result.R;
 import org.junit.platform.commons.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,9 +11,9 @@ import java.io.*;
 
 @RestController
 public class VideoController {
-    public static final String videoDir = "D:\\399894444-1-208.mp4";
+    public static final String videoDir = "D:\\399894444-1-2081.mp4";
     @GetMapping("/pay")
-    public void play(HttpServletRequest request, HttpServletResponse response) throws IOException, IOException {
+    public R play(HttpServletRequest request, HttpServletResponse response) throws IOException, IOException {
         response.reset();
         File file = new File(videoDir);
         long fileLength = file.length();
@@ -47,5 +48,6 @@ public class VideoController {
         randomAccessFile.close();
 
         System.out.println("返回数据区间:【"+range+"-"+(range+len)+"】");
+        return R.success(null);
     }
 }
