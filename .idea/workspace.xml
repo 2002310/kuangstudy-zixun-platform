@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="定义了统一返回R类，在commons中">
+    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="定义了统一异常返回，并且对返回的结果集进行拦截处理">
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/ex/ErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/ex/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/exceptions/PugBusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/exceptions/PugException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/exceptions/PugOrderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/exceptions/PugValidatorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/response/ResultResponseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/ex/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/result/R.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/AdminResulInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminResulInterface.java" afterDir="false" />
@@ -140,7 +150,7 @@
       <workItem from="1684254726365" duration="2481000" />
       <workItem from="1684314512416" duration="1547000" />
       <workItem from="1684339749997" duration="5103000" />
-      <workItem from="1684387888123" duration="13141000" />
+      <workItem from="1684387888123" duration="13454000" />
     </task>
     <task id="LOCAL-00001" summary="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html">
       <created>1684340203330</created>
@@ -163,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684347844687</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="定义了统一异常返回，并且对返回的结果集进行拦截处理">
+      <created>1684431101820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684431101820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html" />
     <MESSAGE value="定义了统一返回R类，在commons中" />
-    <option name="LAST_COMMIT_MESSAGE" value="定义了统一返回R类，在commons中" />
+    <MESSAGE value="定义了统一异常返回，并且对返回的结果集进行拦截处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="定义了统一异常返回，并且对返回的结果集进行拦截处理" />
   </component>
 </project>
