@@ -4,32 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="定义了统一异常返回，并且对返回的结果集进行拦截处理">
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/ex/ErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/ex/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/exceptions/PugBusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/exceptions/PugException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/exceptions/PugOrderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/exceptions/PugValidatorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/response/ResultResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/ex/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/result/R.class" afterDir="false" />
+    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="配置了拦截器，通过线程副本携带一些数据，以及三种方法的属性注入，以及配置文件中的list、map赋值">
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/exceptions/PugBusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/exceptions/PugException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/exceptions/PugOrderException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/exceptions/PugValidatorException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/threadlocal/OpenFlagThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/threadlocal/OpenFlagThreadLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/AlipayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/OpenFlagHandlerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/mvc/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/ParentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/AlipayProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/interceptor/OpenFlagHandlerInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/mvc/WebMvcConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/ResultResponseHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/vo/ParentVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/vo/UserVO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/AdminResulInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminResulInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/AdminResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminSuccessResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/result/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/AdminResultEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/ResultEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/kuangstudy-zixun-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/kuangstudy-zixun-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/ex/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/response/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/response/ResultResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/response/ResultResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/ex/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/kuangstudy-zixun-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/kuangstudy-zixun-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/AdminWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/AdminWebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/AdminWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/AdminWebApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/VideoController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +105,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/naxida-demo/kuangstudy-zixun-platform/platform/kuangstudy-zixun-app-api/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/naxida-demo/kuangstudy-zixun-platform/platform/kuangstudy-zixun-admin-api/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -98,12 +114,13 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.21034482&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;058a505b758bc632b1e6de33e9e8556c&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;07a3d415b148eabcf8a1c34f1087db93&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\naxida-demo\kuangstudy-zixun-platform\platform\kuangstudy-zixun-admin-api\src\main\resources" />
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform\platform\kuangstudy-zixun-app-api\src\main\resources" />
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform\platform\kuangstudy-zixun-admin-api\src\main\java\com\pug\zixun" />
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform" />
@@ -136,6 +153,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="" />
@@ -150,7 +170,12 @@
       <workItem from="1684254726365" duration="2481000" />
       <workItem from="1684314512416" duration="1547000" />
       <workItem from="1684339749997" duration="5103000" />
-      <workItem from="1684387888123" duration="13454000" />
+      <workItem from="1684387888123" duration="15409000" />
+      <workItem from="1684487132690" duration="1581000" />
+      <workItem from="1684488732580" duration="3279000" />
+      <workItem from="1684497634989" duration="12653000" />
+      <workItem from="1684519815307" duration="1684000" />
+      <workItem from="1684521521356" duration="494000" />
     </task>
     <task id="LOCAL-00001" summary="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html">
       <created>1684340203330</created>
@@ -180,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684431101820</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="定义了统一异常返回，并且对返回的结果集进行拦截处理">
+      <created>1684431153717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684431153717</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +248,18 @@
     <MESSAGE value="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html" />
     <MESSAGE value="定义了统一返回R类，在commons中" />
     <MESSAGE value="定义了统一异常返回，并且对返回的结果集进行拦截处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="定义了统一异常返回，并且对返回的结果集进行拦截处理" />
+    <MESSAGE value="配置了拦截器，通过线程副本携带一些数据，以及三种方法的属性注入，以及配置文件中的list、map赋值" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置了拦截器，通过线程副本携带一些数据，以及三种方法的属性注入，以及配置文件中的list、map赋值" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/threadlocal/OpenFlagThreadLocal.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

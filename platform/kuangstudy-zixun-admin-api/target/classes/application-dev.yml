@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/kss-zixun-db?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    password: 2002310gq
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+alipay:
+  key: 120130
+  openkey: 1231
+  map:
+    name: name
+    age: age
+  list:
+    - 1
+    - 2
+    - 3
+    - 4
+  user:
+    id: 127891723
+    username: yykl

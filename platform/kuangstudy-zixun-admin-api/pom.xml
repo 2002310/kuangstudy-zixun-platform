@@ -27,13 +27,22 @@
             <groupId>com.pug.zixun</groupId>
             <artifactId>kuangstudy-zixun-common</artifactId>
             <version>1.0-SNAPSHOT</version>
-
+        </dependency>
+<!--        添加配置类提示-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
         </dependency>
         <dependency>
             <groupId>com.pug.zixun</groupId>
             <artifactId>kuangstudy-zixun-user-service</artifactId>
             <version>1.0-SNAPSHOT</version>
 
+        </dependency>
+        <dependency>
+            <groupId>com.pug.zixun</groupId>
+            <artifactId>kuangstudy-zixun-config</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>

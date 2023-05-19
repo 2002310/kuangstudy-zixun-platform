@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.annotation.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.apache.ibatis.session.Configuration;
 
 import java.util.Date;
 
@@ -14,8 +15,8 @@ import java.util.Date;
 public class User implements java.io.Serializable{
     @TableId(type = IdType.ASSIGN_ID)
     private Long id;
-    private String nickname;
-    private String username;
+    public String nickname;
+    public String username;
     private Integer age;
     private String sign;
     private Integer sex;
