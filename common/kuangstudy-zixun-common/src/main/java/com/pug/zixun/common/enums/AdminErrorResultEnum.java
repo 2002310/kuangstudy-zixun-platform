@@ -5,6 +5,7 @@ public enum AdminErrorResultEnum implements AdminResulInterface{
     USER_NOT_FOUND(410,"用户查询失败，用户不存在"),
     RUNTIME_ERROR(420,"运行时异常"),
     ORDER_EXCEPTION(430,"订单异常"),
+    TOKEN_EXCEPTION(431,"用户登录信息过期，请重新登录"),
     VALIDATOR_EXCEPTION(440,"验证异常"),
     BUSINESS_EXCEPTION(450,"业务异常"),
     ADMIN_PAGE_NOTFOUND(404,"页面未找到"),

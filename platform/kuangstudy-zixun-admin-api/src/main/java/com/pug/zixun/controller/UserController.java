@@ -30,7 +30,7 @@ public class UserController {
     @PostMapping("/user/save")
     @ApiOperation("保存用户")
     public User saveUser(@RequestBody UserVO userVO){
-        if (userVO.getUsername()==null) {
+        if (userVO.getUserName()==null) {
             throw new RuntimeException("用户名为空");
         }
         User user = new User();

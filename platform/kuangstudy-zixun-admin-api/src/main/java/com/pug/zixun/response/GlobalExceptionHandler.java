@@ -1,5 +1,6 @@
 package com.pug.zixun.response;
 
+import com.auth0.jwt.exceptions.TokenExpiredException;
 import com.pug.zixun.common.enums.AdminErrorResultEnum;
 import com.pug.zixun.common.ex.ErrorHandler;
 import com.pug.zixun.common.exceptions.PugBusinessException;
@@ -47,6 +48,12 @@ public class GlobalExceptionHandler {
         e.printStackTrace();
         ErrorHandler errorHandler = ErrorHandler.fail(AdminErrorResultEnum.RUNTIME_ERROR,e.toString());
         return errorHandler;
+    }
+    @ExceptionHandler(TokenExpiredException.class)
+    public ErrorHandler TokenException(TokenExpiredException e,HttpServletRequest request){
+        e.printStackTrace();
+        ErrorHandler fail = ErrorHandler.fail(AdminErrorResultEnum.TOKEN_EXCEPTION, e.toString());
+        return fail;
     }
 
 

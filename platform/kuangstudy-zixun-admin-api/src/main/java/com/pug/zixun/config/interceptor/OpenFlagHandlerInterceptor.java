@@ -1,5 +1,8 @@
 package com.pug.zixun.config.interceptor;
 
+import com.auth0.jwt.JWT;
+import com.auth0.jwt.algorithms.Algorithm;
+import com.auth0.jwt.interfaces.Claim;
 import com.pug.zixun.threadlocal.OpenFlagThreadLocal;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -9,10 +12,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 @Component
 public class OpenFlagHandlerInterceptor implements HandlerInterceptor {
+
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String isFlag = request.getParameter("isFlag");
         OpenFlagThreadLocal.put(Integer.parseInt(isFlag==null?"0":isFlag));
+
+
         return true;
     }
 
