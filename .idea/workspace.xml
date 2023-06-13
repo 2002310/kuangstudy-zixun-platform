@@ -4,34 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="配置了拦截器，通过线程副本携带一些数据，以及三种方法的属性注入，以及配置文件中的list、map赋值">
+    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="添加了token等登录方式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/OpenFlagHandlerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/OpenFlagHandlerInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/mvc/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/mvc/WebMvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/response/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/response/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/AlipayProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/AlipayProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/interceptor/OpenFlagHandlerInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/interceptor/OpenFlagHandlerInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/mvc/WebMvcConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/mvc/WebMvcConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/vo/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/vo/UserVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/kuangstudy-zixun-service/target/classes/com/pug/zixun/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/kuangstudy-zixun-service/target/classes/com/pug/zixun/service/impl/UserServiceImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +172,7 @@
       <workItem from="1685697849766" duration="1644000" />
       <workItem from="1685973813816" duration="6469000" />
       <workItem from="1686426547073" duration="39000" />
+      <workItem from="1686672595081" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html">
       <created>1684340203330</created>
@@ -241,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684522038559</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加了token等登录方式">
+      <created>1686672684429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686672684429</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +260,8 @@
     <MESSAGE value="定义了统一返回R类，在commons中" />
     <MESSAGE value="定义了统一异常返回，并且对返回的结果集进行拦截处理" />
     <MESSAGE value="配置了拦截器，通过线程副本携带一些数据，以及三种方法的属性注入，以及配置文件中的list、map赋值" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置了拦截器，通过线程副本携带一些数据，以及三种方法的属性注入，以及配置文件中的list、map赋值" />
+    <MESSAGE value="添加了token等登录方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了token等登录方式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
