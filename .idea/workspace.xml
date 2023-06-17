@@ -171,6 +171,7 @@
       <workItem from="1685973813816" duration="6469000" />
       <workItem from="1686426547073" duration="39000" />
       <workItem from="1686672595081" duration="1550000" />
+      <workItem from="1687025656996" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html">
       <created>1684340203330</created>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686673287343</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加了token等登录方式">
+      <created>1687025681363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687025681363</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
