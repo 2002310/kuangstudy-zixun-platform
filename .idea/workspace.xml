@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="test commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/AlipayProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/AlipayProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/TokenHandlerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/mvc/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/mvc/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/UserVO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform\service\kuangstudy-zixun-service\src\main\java\com\pug\zixun\service\impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminWebApplication (1)">
+  <component name="RunManager" selected="Spring Boot.AdminWebApplication">
     <configuration name="AdminWebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="kuangstudy-zixun-admin-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pug.zixun.AdminWebApplication" />
@@ -122,8 +121,16 @@
       <workItem from="1683882461488" duration="7482000" />
       <workItem from="1684159060785" duration="9005000" />
       <workItem from="1684254726365" duration="2481000" />
-      <workItem from="1688039180653" duration="339000" />
+      <workItem from="1688039180653" duration="2659000" />
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1688039636613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688039636613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +138,9 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="application.yml" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
 </project>

@@ -8,6 +8,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserVO extends ParentVO implements java.io.Serializable{
+    private Long id;
     private String userName;
     private String passWord;
+    private String code;
+    private String uuid;
 }

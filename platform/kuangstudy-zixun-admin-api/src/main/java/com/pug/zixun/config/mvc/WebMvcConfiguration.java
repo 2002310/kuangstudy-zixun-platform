@@ -1,7 +1,6 @@
 package com.pug.zixun.config.mvc;
 
 import com.pug.zixun.config.interceptor.OpenFlagHandlerInterceptor;
-import com.pug.zixun.config.interceptor.TokenHandlerInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

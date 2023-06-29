@@ -8,6 +8,7 @@ public enum AdminErrorResultEnum implements AdminResulInterface{
     TOKEN_EXCEPTION(431,"用户登录信息过期，请重新登录"),
     VALIDATOR_EXCEPTION(440,"验证异常"),
     BUSINESS_EXCEPTION(450,"业务异常"),
+    TOKEN_ERROR(10046,"用户token失效"),
     ADMIN_PAGE_NOTFOUND(404,"页面未找到"),
     ADMIN_SERVER_ERROR(500,"服务器异常");
 
