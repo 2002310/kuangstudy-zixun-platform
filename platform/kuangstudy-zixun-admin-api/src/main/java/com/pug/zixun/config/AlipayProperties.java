@@ -15,9 +15,7 @@ import java.util.Map;
 public class AlipayProperties implements java.io.Serializable{
     private String key;
     private String openkey;
-
     private User user;
-
     private Map<String,String> map;
     private List<String> list;
 }

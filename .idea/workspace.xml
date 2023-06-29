@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="添加了token等登录方式" />
+    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/AlipayProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/AlipayProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +26,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,11 +39,6 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.8.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2PeIdhM9jFE6W87PyFDw4l3Nj6M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,33 +48,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/naxida-demo/kuangstudy-alipay-stater-test/target/kuangstudy-alipay-stater-test-0.01.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.21034482&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;07a3d415b148eabcf8a1c34f1087db93&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/naxida-demo/kuangstudy-zixun-platform/platform/kuangstudy-zixun-app-api/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.21034482",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "0397b8f3ab03863d537eecc7fba33590",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\naxida-demo\kuangstudy-zixun-platform\platform\kuangstudy-zixun-admin-api\src\main\resources" />
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform\platform\kuangstudy-zixun-app-api\src\main\resources" />
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform\platform\kuangstudy-zixun-admin-api\src\main\java\com\pug\zixun" />
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform" />
@@ -87,36 +83,17 @@
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform\service\kuangstudy-zixun-service\src\main\java\com\pug\zixun\service\impl" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.AdminWebApplication">
-    <configuration name="AdminWebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.AdminWebApplication (1)">
+    <configuration name="AdminWebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="kuangstudy-zixun-admin-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pug.zixun.AdminWebApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pug.zixun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="kuangstudy-zixun-admin-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pug.zixun.AdminWebApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pug.zixun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,12 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.AdminWebApplication" />
-        <item itemvalue="Spring Boot.AdminWebApplication (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringBootOptions">
@@ -151,92 +122,8 @@
       <workItem from="1683882461488" duration="7482000" />
       <workItem from="1684159060785" duration="9005000" />
       <workItem from="1684254726365" duration="2481000" />
-      <workItem from="1684314512416" duration="1547000" />
-      <workItem from="1684339749997" duration="5103000" />
-      <workItem from="1684387888123" duration="15409000" />
-      <workItem from="1684487132690" duration="1581000" />
-      <workItem from="1684488732580" duration="3279000" />
-      <workItem from="1684497634989" duration="12653000" />
-      <workItem from="1684519815307" duration="1684000" />
-      <workItem from="1684521521356" duration="707000" />
-      <workItem from="1684580100929" duration="4647000" />
-      <workItem from="1684692053215" duration="768000" />
-      <workItem from="1684758116793" duration="4035000" />
-      <workItem from="1684770088590" duration="4467000" />
-      <workItem from="1685275998983" duration="218000" />
-      <workItem from="1685277168586" duration="616000" />
-      <workItem from="1685376920615" duration="53000" />
-      <workItem from="1685461512573" duration="2736000" />
-      <workItem from="1685697849766" duration="1644000" />
-      <workItem from="1685973813816" duration="6469000" />
-      <workItem from="1686426547073" duration="39000" />
-      <workItem from="1686672595081" duration="1550000" />
-      <workItem from="1687025656996" duration="945000" />
+      <workItem from="1688039180653" duration="339000" />
     </task>
-    <task id="LOCAL-00001" summary="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html">
-      <created>1684340203330</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1684340203330</updated>
-    </task>
-    <task id="LOCAL-00002" summary="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html">
-      <created>1684340814697</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1684340814697</updated>
-    </task>
-    <task id="LOCAL-00003" summary="定义了统一返回R类，在commons中">
-      <created>1684347844687</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1684347844687</updated>
-    </task>
-    <task id="LOCAL-00004" summary="定义了统一异常返回，并且对返回的结果集进行拦截处理">
-      <created>1684431101820</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1684431101820</updated>
-    </task>
-    <task id="LOCAL-00005" summary="定义了统一异常返回，并且对返回的结果集进行拦截处理">
-      <created>1684431153717</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1684431153717</updated>
-    </task>
-    <task id="LOCAL-00006" summary="配置了拦截器，通过线程副本携带一些数据，以及三种方法的属性注入，以及配置文件中的list、map赋值">
-      <created>1684522038559</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1684522038559</updated>
-    </task>
-    <task id="LOCAL-00007" summary="添加了token等登录方式">
-      <created>1686672684429</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1686672684429</updated>
-    </task>
-    <task id="LOCAL-00008" summary="添加了token等登录方式">
-      <created>1686673287343</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1686673287343</updated>
-    </task>
-    <task id="LOCAL-00009" summary="添加了token等登录方式">
-      <created>1687025681363</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1687025681363</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,47 +131,5 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="application.yml" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加了knife4j依赖和配置。访问地址为http://localhost:10001/doc.html" />
-    <MESSAGE value="定义了统一返回R类，在commons中" />
-    <MESSAGE value="定义了统一异常返回，并且对返回的结果集进行拦截处理" />
-    <MESSAGE value="配置了拦截器，通过线程副本携带一些数据，以及三种方法的属性注入，以及配置文件中的list、map赋值" />
-    <MESSAGE value="添加了token等登录方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了token等登录方式" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/threadlocal/OpenFlagThreadLocal.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
