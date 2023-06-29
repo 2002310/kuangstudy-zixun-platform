@@ -13,13 +13,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebMvcConfiguration implements WebMvcConfigurer {
     @Autowired
     OpenFlagHandlerInterceptor openFlagHandlerInterceptor;
-    @Autowired
-    TokenHandlerInterceptor tokenHandlerInterceptor;
 
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(openFlagHandlerInterceptor).addPathPatterns("/user/**");
-        registry.addInterceptor(tokenHandlerInterceptor).addPathPatterns("/user/**").excludePathPatterns("/user//token/login");
     }
 }
