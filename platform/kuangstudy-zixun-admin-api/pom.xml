@@ -18,11 +18,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>knife4j-spring-boot-starter</artifactId>
+<!--        <dependency>-->
+<!--            <groupId>com.github.xiaoymin</groupId>-->
+<!--            <artifactId>knife4j-spring-boot-starter</artifactId>-->
 
-        </dependency>
+<!--        </dependency>-->
         <dependency>
             <groupId>com.pug.zixun</groupId>
             <artifactId>kuangstudy-zixun-common</artifactId>
@@ -48,11 +48,11 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.xing</groupId>
-            <artifactId>kuangstudy-alipay-stater-test</artifactId>
-            <version>0.01</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.xing</groupId>-->
+<!--            <artifactId>kuangstudy-alipay-stater-test</artifactId>-->
+<!--            <version>0.01</version>-->
+<!--        </dependency>-->
     </dependencies>
     <build>
         <!--        打包-->

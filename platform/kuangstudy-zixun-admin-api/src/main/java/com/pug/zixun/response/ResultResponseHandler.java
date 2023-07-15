@@ -2,9 +2,8 @@ package com.pug.zixun.response;
 
 import com.pug.zixun.common.ex.ErrorHandler;
 import com.pug.zixun.common.result.R;
-import com.pug.zixun.threadlocal.OpenFlagThreadLocal;
+import lombok.extern.slf4j.Slf4j;
 import org.codehaus.jackson.map.ObjectMapper;
-import org.springframework.context.annotation.Import;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -15,13 +14,12 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 import java.io.IOException;
 //当设定了统一返回时，要添加一个包，否则会对swagger照成影响
-@RestControllerAdvice(basePackages = "com.pug.zixun.controller")
-@Import({})
+@RestControllerAdvice
+@Slf4j
 public class ResultResponseHandler implements ResponseBodyAdvice<Object> {
     @Override
     public boolean supports(MethodParameter returnType, Class<? extends HttpMessageConverter<?>> converterType) {
-        Integer isFlag = OpenFlagThreadLocal.get();
-        return !isFlag.equals(1);
+        return true;
     }
 
     @Override

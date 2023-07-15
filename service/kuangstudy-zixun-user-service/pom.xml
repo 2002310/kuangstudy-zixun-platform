@@ -25,5 +25,10 @@
 
 
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.pug.zixun</groupId>-->
+<!--            <artifactId>kuangstudy-zixun-domian</artifactId>-->
+<!--            <version>1.0-SNAPSHOT</version>-->
+<!--        </dependency>-->
     </dependencies>
 </project>

@@ -18,4 +18,7 @@ public class ErrorHandler {
     public static ErrorHandler fail(AdminResulInterface adminResulInterface,Object o){
         return new ErrorHandler(adminResulInterface.getCode(),adminResulInterface.getMsg(),o);
     }
+    public static ErrorHandler fail(int code,String msg,Object o){
+        return new ErrorHandler(code,msg,o);
+    }
 }

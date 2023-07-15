@@ -5,7 +5,9 @@ import com.pug.zixun.common.enums.AdminErrorResultEnum;
 import com.pug.zixun.common.ex.ErrorHandler;
 import com.pug.zixun.common.exceptions.PugBusinessException;
 import com.pug.zixun.common.exceptions.PugOrderException;
+import com.pug.zixun.common.exceptions.PugTokenException;
 import com.pug.zixun.common.exceptions.PugValidatorException;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
@@ -13,7 +15,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.FileNotFoundException;
 
 @RestControllerAdvice
-public class GlobalExceptionHandler {
+@Slf4j
+public class GlobalExceptionHandler{
     @ExceptionHandler(Throwable.class)
     public ErrorHandler makeException(Throwable e, HttpServletRequest request){
         e.printStackTrace();
@@ -28,6 +31,7 @@ public class GlobalExceptionHandler {
     }
     @ExceptionHandler(RuntimeException.class)
     public ErrorHandler RuntimeException(RuntimeException e, HttpServletRequest request){
+        log.info("runtime");
         e.printStackTrace();
         ErrorHandler errorHandler = ErrorHandler.fail(AdminErrorResultEnum.RUNTIME_ERROR,e.toString());
         return errorHandler;
@@ -35,18 +39,24 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(PugBusinessException.class)
     public ErrorHandler BusinessException(PugBusinessException e, HttpServletRequest request){
         e.printStackTrace();
-        ErrorHandler errorHandler = ErrorHandler.fail(AdminErrorResultEnum.RUNTIME_ERROR,e.toString());
+        ErrorHandler errorHandler = ErrorHandler.fail(e.getCode(),e.getMsg(),e.toString());
+        return errorHandler;
+    }
+    @ExceptionHandler(PugTokenException.class)
+    public ErrorHandler TokenException(PugTokenException e, HttpServletRequest request){
+        e.printStackTrace();
+        ErrorHandler errorHandler = ErrorHandler.fail(e.getCode(),e.getMsg(),e.toString());
         return errorHandler;
     }
     @ExceptionHandler(PugOrderException.class)
     public ErrorHandler OrderException(PugOrderException e, HttpServletRequest request){
         e.printStackTrace();
-        ErrorHandler errorHandler = ErrorHandler.fail(AdminErrorResultEnum.RUNTIME_ERROR,e.toString());
+        ErrorHandler errorHandler = ErrorHandler.fail(e.getCode(),e.getMsg(),e.toString());
         return errorHandler;
     }@ExceptionHandler(PugValidatorException.class)
     public ErrorHandler ValidatorException(PugValidatorException e, HttpServletRequest request){
         e.printStackTrace();
-        ErrorHandler errorHandler = ErrorHandler.fail(AdminErrorResultEnum.RUNTIME_ERROR,e.toString());
+        ErrorHandler errorHandler = ErrorHandler.fail(e.getCode(),e.getMsg(),e.toString());
         return errorHandler;
     }
     @ExceptionHandler(TokenExpiredException.class)

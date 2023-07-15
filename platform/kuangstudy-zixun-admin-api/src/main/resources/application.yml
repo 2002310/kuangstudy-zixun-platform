@@ -1,5 +1,5 @@
 server:
-  port: 10001
+  port: 10003
 spring:
   profiles:
     active: dev
@@ -13,8 +13,3 @@ mybatis-plus:
   mapper-locations: classpath*:/mapper/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-alipay:
-  res:
-    age: 王五
-    id: 88120
-    name: 赵家村

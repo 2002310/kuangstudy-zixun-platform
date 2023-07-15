@@ -1,5 +1,5 @@
 package com.pug.zixun.vo;
-import com.pug.zixun.domain.User;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class UserVO extends ParentVO implements java.io.Serializable{
     private Long id;
-    private String userName;
-    private String passWord;
+    private String username;
+    private String password;
     private String code;
     private String uuid;
 }

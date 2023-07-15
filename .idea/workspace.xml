@@ -4,12 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="test commit">
+    <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="解决WebMvcConfiguration报错">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/TokenHandlerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/ex/ErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/ex/ErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/ex/ErrorHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/ex/ErrorHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/threadlocal/OpenFlagThreadLocal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/threadlocal/OpenFlagThreadLocal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/AdminWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/AdminWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/AlipayProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/Knife4jConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/RedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/RedisConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/OpenFlagHandlerInterceptor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/mvc/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/mvc/WebMvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/PassportLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/RedisController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/VideoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/response/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/response/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/response/ResultResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/response/ResultResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/utils/JwtServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/jwt/JwtServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/ParentVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/vo/ParentVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/AdminWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/AdminWebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/AlipayProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/Knife4jConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/RedisConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/interceptor/OpenFlagHandlerInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/interceptor/TokenHandlerInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/mvc/WebMvcConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/mvc/WebMvcConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/PassportLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/PassportLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/RedisController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/VideoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/ResultResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/ResultResponseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/vo/ParentVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/vo/UserVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/src/main/java/com/pug/zixun/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/src/main/java/com/pug/zixun/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/src/main/java/com/pug/zixun/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/src/main/java/com/pug/zixun/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/target/classes/com/pug/zixun/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/target/classes/com/pug/zixun/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/target/classes/com/pug/zixun/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/target/classes/com/pug/zixun/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +83,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\apache-maven-3.8.4\maven-repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.4" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.8.4\conf\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -47,31 +96,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/naxida-demo/kuangstudy-zixun-platform/platform/kuangstudy-zixun-app-api/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.21034482",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "0397b8f3ab03863d537eecc7fba33590",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/桌面/GZ036 区块链技术应用赛项赛题/GZ036 区块链技术应用赛项赛题第3套附件/GZ036 区块链技术应用赛项赛题第3套附件/代码/sourcecode/graduation_project_back&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21034482&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d32866a95497fd5243de017a7be16f36&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform\platform\kuangstudy-zixun-app-api\src\main\resources" />
@@ -80,6 +132,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\naxida-demo\kuangstudy-zixun-platform\service\kuangstudy-zixun-service\src\main\java\com\pug\zixun\service\impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pug.zixun.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AdminWebApplication">
@@ -121,7 +176,10 @@
       <workItem from="1683882461488" duration="7482000" />
       <workItem from="1684159060785" duration="9005000" />
       <workItem from="1684254726365" duration="2481000" />
-      <workItem from="1688039180653" duration="2659000" />
+      <workItem from="1688039180653" duration="7684000" />
+      <workItem from="1688102899599" duration="11340000" />
+      <workItem from="1688125259562" duration="10830000" />
+      <workItem from="1688793845615" duration="31982000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1688039636613</created>
@@ -130,7 +188,28 @@
       <option name="project" value="LOCAL" />
       <updated>1688039636613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="删除了自定义的token拦截器，完善了UserVo,添加了TOKEN_ERROR(10046,&quot;用户token失效&quot;),编写了JWT的生成验证类">
+      <created>1688041872540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688041872540</updated>
+    </task>
+    <task id="LOCAL-00003" summary="删除了自定义的token拦截器，完善了UserVo,添加了TOKEN_ERROR(10046,&quot;用户token失效&quot;),编写了JWT的生成验证类">
+      <created>1688041889222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688041889222</updated>
+    </task>
+    <task id="LOCAL-00004" summary="解决WebMvcConfiguration报错">
+      <created>1688041943289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688041943289</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +220,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="删除了自定义的token拦截器，完善了UserVo,添加了TOKEN_ERROR(10046,&quot;用户token失效&quot;),编写了JWT的生成验证类" />
+    <MESSAGE value="解决WebMvcConfiguration报错" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决WebMvcConfiguration报错" />
   </component>
 </project>

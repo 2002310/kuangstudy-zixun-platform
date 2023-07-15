@@ -1,51 +1,49 @@
 package com.pug.zixun.controller;
 
-import com.auth0.jwt.JWT;
-import com.auth0.jwt.algorithms.Algorithm;
-import com.auth0.jwt.interfaces.Claim;
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.pug.zixun.bo.UserBo;
+import com.pug.zixun.common.enums.AdminErrorResultEnum;
+import com.pug.zixun.config.jwt.JwtServer;
+import com.pug.zixun.config.validator.PugAssert;
 import com.pug.zixun.domain.User;
 import com.pug.zixun.service.UserService;
 import com.pug.zixun.vo.UserVO;
-import org.apache.el.lang.ELArithmetic;
-import org.omg.PortableInterceptor.USER_EXCEPTION;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.web.bind.annotation.*;
-import sun.security.ec.ECPublicKeyImpl;
-
-import javax.servlet.http.HttpServletRequest;
-import java.util.Date;
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/user")
-public class PassportLoginController {
-    final static String key = "TokenKey";
-    @Autowired
-    RedisTemplate<String, Object> template;
+@Slf4j
+public class PassportLoginController extends PugAssert {
+
     @Autowired
     private UserService service;
-    @PostMapping("/token/login")
-    public String tokenLogin(@RequestBody UserVO userVO) {
-        QueryWrapper wrapper = new QueryWrapper<User>();
-        wrapper.eq("username", userVO.getUserName());
-        User user = service.getOne(wrapper);
-        System.out.println(user);
-        if (!(user.getUsername().equals(userVO.getUserName())&&user.getPassword().equals(userVO.getPassWord()))) {
-            throw new RuntimeException("账号密码错误");
-        }
-        Algorithm algorithm = Algorithm.HMAC256(key);
-        String token = JWT.create().withClaim("id", user.getId()).withExpiresAt(new Date(System.currentTimeMillis() + 50000)).sign(algorithm);
-        return token;
+    @Autowired
+    private JwtServer jwtServer;
+    @PostMapping("/user/login")
+    public UserBo login(@RequestBody UserVO userVo) {
+        //通过断言来判定用户输入的账号密码是否为空
+        isEmptyEx(userVo.getUsername(),AdminErrorResultEnum.USERNAME_IS_NULL);
+        isEmptyEx(userVo.getPassword(),AdminErrorResultEnum.PASSWORD_IS_NULL);
+        //调用登陆服务，返回查找到的用户
+        User dbLoginUser = service.login(userVo);
+        //断言判断用户输入的账号存在对应的用户
+        isNullEx(dbLoginUser,AdminErrorResultEnum.USER_NOT_FOUND);
+        String password = userVo.getPassword();
+        //判断数据库返回的密码是否与用户输入的相同
+        boolean isLogin = dbLoginUser.getPassword().equalsIgnoreCase(password);
+        //如果输入的密码有误，抛出异常
+        isFalseEx(isLogin,AdminErrorResultEnum.PASSWORD_IS_FALSE);
+        //根据用户生成token
+        UserBo userBo = new UserBo();
+        userVo.setId(dbLoginUser.getId());
+        String token = jwtServer.createToken(userVo);
+        userBo.setToken(token);
+        //注意清空敏感信息
+        dbLoginUser.setPassword(null);
+        userBo.setUser(dbLoginUser);
+        return userBo;
     }
 
-    @GetMapping("/token/info")
-    public User getUser(HttpServletRequest request) {
-        User user = (User) request.getAttribute("user");
-        return user;
-    }
 }
