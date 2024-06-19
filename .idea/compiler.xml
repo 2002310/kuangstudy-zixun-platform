@@ -25,13 +25,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="kuangstudy-zixun-admin-api" options="" />
-      <module name="kuangstudy-zixun-app-api" options="" />
+      <module name="kuangstudy-zixun-admin-api" options="-parameters" />
+      <module name="kuangstudy-zixun-app-api" options="-parameters" />
       <module name="kuangstudy-zixun-common" options="-parameters" />
-      <module name="kuangstudy-zixun-config" options="" />
-      <module name="kuangstudy-zixun-domian" options="" />
-      <module name="kuangstudy-zixun-mapper" options="" />
-      <module name="kuangstudy-zixun-service" options="" />
+      <module name="kuangstudy-zixun-config" options="-parameters" />
+      <module name="kuangstudy-zixun-domian" options="-parameters" />
+      <module name="kuangstudy-zixun-mapper" options="-parameters" />
+      <module name="kuangstudy-zixun-service" options="-parameters" />
       <module name="kuangstudy-zixun-user-service" options="-parameters" />
     </option>
   </component>
