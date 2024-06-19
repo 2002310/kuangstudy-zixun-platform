@@ -1,6 +1,7 @@
 package com.pug.zixun.controller;
 
 import com.pug.zixun.bo.UserBo;
+import com.pug.zixun.common.anno.IgnoreToken;
 import com.pug.zixun.common.enums.AdminErrorResultEnum;
 import com.pug.zixun.config.jwt.JwtServer;
 import com.pug.zixun.config.validator.PugAssert;
@@ -22,6 +23,7 @@ public class PassportLoginController extends PugAssert {
     @Autowired
     private JwtServer jwtServer;
     @PostMapping("/user/login")
+    @IgnoreToken
     public UserBo login(@RequestBody UserVO userVo) {
         //通过断言来判定用户输入的账号密码是否为空
         isEmptyEx(userVo.getUsername(),AdminErrorResultEnum.USERNAME_IS_NULL);

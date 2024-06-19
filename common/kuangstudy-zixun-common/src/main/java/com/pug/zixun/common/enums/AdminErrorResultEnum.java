@@ -3,6 +3,7 @@ package com.pug.zixun.common.enums;
 public enum AdminErrorResultEnum implements AdminResulInterface{
     FILE_NOT_FOUND(401,"文件未找到"),
     USER_NOT_FOUND(410,"用户查询失败，用户不存在"),
+    USER_IS_ENP(411,"输入为空"),
     USER_FORBID(415,"用户异常，请联系管理员"),
     RUNTIME_ERROR(420,"运行时异常"),
     ORDER_EXCEPTION(430,"订单异常"),

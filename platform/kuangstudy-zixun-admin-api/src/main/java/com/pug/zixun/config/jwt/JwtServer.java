@@ -42,7 +42,7 @@ public class JwtServer {
                 .withClaim(CLAIM_ID,userVo.getId())
                 .withExpiresAt(new Date(System.currentTimeMillis()+TOKEN_EXPIRE_TIME))
                 .sign(ALOG);
-        return token;
+        return PUG_TOKEN_PRIVATE+token;
     }
     /*
     * 校验token
@@ -68,7 +68,7 @@ public class JwtServer {
             }
             token = token.substring(PUG_TOKEN_PRIVATE.length());
             PugAssert.isNullEx(token,AdminErrorResultEnum.TOKEN_IS_NULL);
-            PugAssert.isFalseEx(token.startsWith(PUG_TOKEN_PRIVATE),AdminErrorResultEnum.TOKEN_NOT_ACTIVITY);
+            PugAssert.isFalseEx(!token.startsWith(PUG_TOKEN_PRIVATE),AdminErrorResultEnum.TOKEN_NOT_ACTIVITY);
             JWTVerifier verifier = JWT.require(ALOG).build();
             DecodedJWT verify = verifier.verify(token);
             Long aLong = verify.getClaim(CLAIM_ID).asLong();

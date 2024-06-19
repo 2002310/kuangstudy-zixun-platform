@@ -37,13 +37,17 @@ public class PassportLoginInterceptor implements HandlerInterceptor {
         //自定义注解
         HandlerMethod handlerMethod = (HandlerMethod) handler;
         Method method = handlerMethod.getMethod();
-        Class<?> aClass = handlerMethod.getBean().getClass();
+
         //方法和类中有这个注解即直接返回，不验证token
-        IgnoreToken annotation = method.getAnnotation(IgnoreToken.class);
-        if (annotation!=null){
+        IgnoreToken methodAnnotation = method.getAnnotation(IgnoreToken.class);
+        if (methodAnnotation!=null){
             return true;
         }
 
+        IgnoreToken classAnnotation = handlerMethod.getBeanType().getAnnotation(IgnoreToken.class);
+        if (classAnnotation!=null){
+            return true;
+        }
         String token = getToken(request);
         if (StringUtils.isEmpty(token)) {
             throw new PugTokenException(AdminErrorResultEnum.TOKEN_NOT_FOUND);
@@ -63,7 +67,7 @@ public class PassportLoginInterceptor implements HandlerInterceptor {
             throw new PugTokenException(AdminErrorResultEnum.USER_NOT_FOUND);
         }
         //是否黑名单
-        if (one.getForbbiden()!=null&&one.getForbbiden().equals(1)){
+        if (one.getForbbiden()!=null&&one.getForbbiden().equals(0)){
             throw new PugTokenException(AdminErrorResultEnum.USER_FORBID);
         }
         //是否删除

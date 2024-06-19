@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="解决WebMvcConfiguration报错">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/ex/ErrorHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/ex/ErrorHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/result/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/result/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/bo/UserBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/bo/UserBo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/vo/ParentVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/vo/ParentVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/vo/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/vo/UserVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/PassportLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/PassportLoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/jwt/JwtServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/jwt/JwtServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/PassportLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/PassportLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/interceptor/PassportLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/interceptor/PassportLoginInterceptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/jwt/JwtServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/jwt/JwtServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/ResultResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/response/ResultResponseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-app-api/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-app-api/target/classes/com/pug/zixun/AppWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-app-api/target/classes/com/pug/zixun/AppWebApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/target/classes/com/pug/zixun/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/target/classes/com/pug/zixun/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/PassportLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/PassportLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +165,7 @@
       <workItem from="1706871160004" duration="31000" />
       <workItem from="1710247585055" duration="12000" />
       <workItem from="1718799091143" duration="11000" />
-      <workItem from="1718801901657" duration="500000" />
+      <workItem from="1718801901657" duration="5503000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1688039636613</created>
@@ -207,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695297449195</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="解决WebMvcConfiguration报错">
+      <created>1718802579318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718802579318</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
