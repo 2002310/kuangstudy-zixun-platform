@@ -4,6 +4,8 @@ public enum AdminErrorResultEnum implements AdminResulInterface{
     FILE_NOT_FOUND(401,"文件未找到"),
     USER_NOT_FOUND(410,"用户查询失败，用户不存在"),
     USER_IS_ENP(411,"输入为空"),
+    UUID_EX_OR_NULL(422,"uuid为空或错误，请重新登录"),
+    USER_LOGIN_SAME(423,"你以及在其他设备或浏览器登录，请重新登录"),
     USER_FORBID(415,"用户异常，请联系管理员"),
     RUNTIME_ERROR(420,"运行时异常"),
     ORDER_EXCEPTION(430,"订单异常"),

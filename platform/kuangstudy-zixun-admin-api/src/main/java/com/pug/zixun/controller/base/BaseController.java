@@ -1,4 +1,4 @@
-package com.pug.zixun.controller;
+package com.pug.zixun.controller.base;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

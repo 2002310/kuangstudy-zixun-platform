@@ -7,5 +7,6 @@ import lombok.Data;
 @Data
 public class UserBo implements java.io.Serializable {
     private String token;
+    private String tokenUUid;
     private User user;
 }

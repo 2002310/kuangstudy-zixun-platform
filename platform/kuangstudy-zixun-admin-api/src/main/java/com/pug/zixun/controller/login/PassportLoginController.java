@@ -1,8 +1,9 @@
-package com.pug.zixun.controller;
+package com.pug.zixun.controller.login;
 
 import com.pug.zixun.bo.UserBo;
 import com.pug.zixun.common.anno.IgnoreToken;
 import com.pug.zixun.common.enums.AdminErrorResultEnum;
+import com.pug.zixun.common.utils.pwd.MD5Util;
 import com.pug.zixun.config.jwt.JwtServer;
 import com.pug.zixun.config.validator.PugAssert;
 import com.pug.zixun.domain.User;
@@ -10,9 +11,12 @@ import com.pug.zixun.service.UserService;
 import com.pug.zixun.vo.UserVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.UUID;
 
 @RestController
 @Slf4j
@@ -22,6 +26,9 @@ public class PassportLoginController extends PugAssert {
     private UserService service;
     @Autowired
     private JwtServer jwtServer;
+    @Autowired
+    private RedisTemplate<Object,Object> redisTemplate;
+
     @PostMapping("/user/login")
     @IgnoreToken
     public UserBo login(@RequestBody UserVO userVo) {
@@ -32,7 +39,7 @@ public class PassportLoginController extends PugAssert {
         User dbLoginUser = service.login(userVo);
         //断言判断用户输入的账号存在对应的用户
         isNullEx(dbLoginUser,AdminErrorResultEnum.USER_NOT_FOUND);
-        String password = userVo.getPassword();
+        String password = MD5Util.md5slat(userVo.getPassword());
         //判断数据库返回的密码是否与用户输入的相同
         boolean isLogin = dbLoginUser.getPassword().equalsIgnoreCase(password);
         //如果输入的密码有误，抛出异常
@@ -45,6 +52,11 @@ public class PassportLoginController extends PugAssert {
         //注意清空敏感信息
         dbLoginUser.setPassword(null);
         userBo.setUser(dbLoginUser);
+        //登录下线
+        String tokenuuid = UUID.randomUUID().toString();
+        String tokenuuidKey = "pug:user:login:"+dbLoginUser.getId();
+        redisTemplate.opsForValue().set(tokenuuidKey,tokenuuid);
+        userBo.setTokenUUid(tokenuuid);
         return userBo;
     }
 
