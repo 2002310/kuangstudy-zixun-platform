@@ -5,61 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d78130e0-a004-4906-8345-554e6fb6683b" name="Changes" comment="5-1实现数据库加密和登录下线">
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/Contants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/bean/BeanCopyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/bean/BeanMapUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/date/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/date/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/date/TmDateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/asserts/Vsserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/BooleanHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/CatchHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/FlaseCallbackHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/FlaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/HandlerCallBackFn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/HandlerFn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/TrueCallbackHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/TrueHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/TryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/fn/inter/VSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/html/EscapeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/html/HTMLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/http/HttpHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/http/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/json/FastJsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/json/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/pwd/AES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/pwd/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/pwd/DesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/pwd/EncryptUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils/pwd/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/kuangstudy-zixun-config/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapper/kuangstudy-zixun-mapper/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/PassportLoginOutInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/RedisConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/kuangstudy-zixun-user-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/JSwing/src/main/java/org/example/JLayerSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/JavaJUC/JavaJUC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/JavaJUC/JavaJUC/src/main/java/org/example/lock/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/JavaJUC/JavaJUC/src/main/java/org/example/rw/ReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/JavaJUC/JavaJUC/src/main/java/single/LazyMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/Shopping/src/main/java/com/example/shopping/common/GlobalEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/Shopping/src/main/java/com/example/shopping/common/SuccessResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/Shopping/src/main/java/com/example/shopping/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/Shopping/src/main/java/com/example/shopping/pojo/UserAo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/Shopping/src/main/java/com/example/shopping/validate/JwtServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/Shopping/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/Shopping/src/test/java/com/example/shopping/ArticleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/XianLvQingYuan/XianLvQingYuan/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/hello-security/hello-security/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/hello-security/hello-security/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/hello-security/hello-security/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//JavaProject/workspace-java/easychat-java/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../..//SeecenTrain/demo/src/main/java/com/example/receiveServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/enums/AdminErrorResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/kuangstudy-zixun-common/target/classes/com/pug/zixun/common/enums/AdminErrorResultEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/bo/UserBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/src/main/java/com/pug/zixun/bo/UserBo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/bo/UserBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/kuangstudy-zixun-domian/target/classes/com/pug/zixun/bo/UserBo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/RedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/RedisConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/mvc/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/mvc/WebMvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/base/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/order/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/PassportLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/login/PassportLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/mvc/WebMvcConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/mvc/WebMvcConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/BaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/PassportLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/PassportLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/interceptor/PassportLoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/jwt/JwtServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/config/jwt/JwtServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/login/PassportLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/src/main/java/com/pug/zixun/controller/login/PassportLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/interceptor/PassportLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/interceptor/PassportLoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/jwt/JwtServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/platform/kuangstudy-zixun-admin-api/target/classes/com/pug/zixun/config/jwt/JwtServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,36 +67,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/JavaProject/kuangstudy-zixun-platform/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.21034482",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "529d51bc16ce6a1e2f98415a8844ed74",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProject/kuangstudy-zixun-platform/common/kuangstudy-zixun-common/src/main/java/com/pug/zixun/common/utils&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21034482&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;529d51bc16ce6a1e2f98415a8844ed74&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "redis"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -234,7 +204,8 @@
       <workItem from="1710247585055" duration="12000" />
       <workItem from="1718799091143" duration="11000" />
       <workItem from="1718801901657" duration="5806000" />
-      <workItem from="1718849258899" duration="6612000" />
+      <workItem from="1718849258899" duration="6697000" />
+      <workItem from="1718887238269" duration="5803000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1688039636613</created>
@@ -285,7 +256,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718807891570</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="5-1实现数据库加密和登录下线">
+      <created>1718858304003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718858304003</updated>
+    </task>
+    <task id="LOCAL-00009" summary="5-1实现数据库加密和登录下线">
+      <created>1718858374656</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718858374656</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

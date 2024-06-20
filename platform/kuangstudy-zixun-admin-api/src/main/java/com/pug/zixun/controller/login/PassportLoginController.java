@@ -57,6 +57,9 @@ public class PassportLoginController extends PugAssert {
         String tokenuuidKey = "pug:user:login:"+dbLoginUser.getId();
         redisTemplate.opsForValue().set(tokenuuidKey,tokenuuid);
         userBo.setTokenUUid(tokenuuid);
+
+//        String tokenKey = "pug:user:login:token:"+token;
+//        redisTemplate.opsForValue().set(tokenKey,JwtServer.TOKEN_EXPIRE_TIME*2);
         return userBo;
     }
 
